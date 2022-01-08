@@ -22,3 +22,9 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>
+error_reporter->Report("Person score: %d No person score: %d", person_score,
+#include "tensorflow/lite/micro/examples/person_detection/detection_responder.h"
+@@ -198,3 +204,5 @@ TfLiteStatus GetImage(tflite::ErrorReporter* error_reporter, int frame_width,
+#include "tensorflow/lite/micro/examples/person_detection/himax_driver/HM01B0.h"
+endif // defined(ARDUINO) && !defined(ARDUINO_SFE_EDGE)
+@@ -13,6 +13,12 @@ See the License for the specific language governing permissions and
